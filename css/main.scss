@@ -1,4 +1,4 @@
-$main-red: #c33a3a;
+$main-red: #ce1b28;
 $header-bg: #111;
 $bg-light: #fbfbfb;
 $footer-bg: #121212;
@@ -9,7 +9,7 @@ $text-darker: #333;
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #f8f8f8;
+  background: #fff;
   color: $text-darker;
 }
 
@@ -66,7 +66,7 @@ header {
 
 
 #main {
-  background: linear-gradient(rgba(120,0,0,0.65), rgba(17,17,17,0.75)), url('../images/banner2.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(120,0,0,0.65), rgba(17,17,17,0.75)), url('../banner2.jpg') center/cover no-repeat;
   height: 520px;
   display: flex;
   justify-content: center;
@@ -158,11 +158,11 @@ header {
   }
 }
 
-// ------------ CTA
+
 #cta {
   position: relative;
   min-height: 330px;
-  background: url('../images/cta01.jpg') center/cover no-repeat;
+  background: url('../cta01.jpg') center/cover no-repeat;
   display: flex;
   align-items: flex-end;
   margin-top: 35px;
